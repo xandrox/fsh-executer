@@ -1,7 +1,3 @@
-## install the plugin
-
-forge source-plugin
-
 ## run the plugin
 
 	export FORGE_OPTS="-Dexec.fsh.file=/Users/sso/Documents/dev/adorsys/fsh-executer/src/test/resources/de/adorsys/fshexecuter/test.fsh -Dnewproject.dir=test 		-Dnewproject.topLevelPackage=org.adorsys.test -Dnewproject.name=test"
@@ -15,4 +11,9 @@ forge source-plugin
 	Wrote /Users/sso/Documents/dev/adorsys/test/pom.xml
 	finished script 
 
+## install the plugin
+
+In project root:
+
+	forge source-plugin
 
