@@ -1,12 +1,12 @@
-.h2 install the plugin
+## install the plugin
 
 forge source-plugin
 
-.h2 run the plugin
+## run the plugin
 
-export FORGE_OPTS="-Dexec.fsh.file=/Users/sso/Documents/dev/adorsys/fsh-executer/src/test/resources/de/adorsys/fshexecuter/test.fsh -Dnewproject.dir=test -Dnewproject.topLevelPackage=org.adorsys.test -Dnewproject.name=test"
+	export FORGE_OPTS="-Dexec.fsh.file=/Users/sso/Documents/dev/adorsys/fsh-executer/src/test/resources/de/adorsys/fshexecuter/test.fsh -Dnewproject.dir=test 		-Dnewproject.topLevelPackage=org.adorsys.test -Dnewproject.name=test"
 
-forge
+	forge
 
 
 
@@ -17,9 +17,9 @@ forge
    |_|  \___/|_|  \__, |\___| 
                    |___/      
  
-execute script /Users/sso/Documents/dev/adorsys/fsh-executer/src/test/resources/de/adorsys/fshexecuter/test.fsh
-***SUCCESS*** Created project [test] in new working directory [/Users/sso/Documents/dev/adorsys/test]
-Wrote /Users/sso/Documents/dev/adorsys/test/pom.xml
-finished script 
+	execute script /Users/sso/Documents/dev/adorsys/fsh-executer/src/test/resources/de/adorsys/fshexecuter/test.fsh
+	***SUCCESS*** Created project [test] in new working directory [/Users/sso/Documents/dev/adorsys/test]
+	Wrote /Users/sso/Documents/dev/adorsys/test/pom.xml
+	finished script 
 
 
