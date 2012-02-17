@@ -1,7 +1,9 @@
 ## run the plugin
 
-	export FORGE_OPTS="-Dexec.fsh.file=/Users/sso/Documents/dev/adorsys/fsh-executer/src/test/resources/de/adorsys/fshexecuter/test.fsh -Dnewproject.dir=test 		-Dnewproject.topLevelPackage=org.adorsys.test -Dnewproject.name=test"
-
+	export FORGE_OPTS="-Dexec.fsh.file=./fshexecuter/test.fsh \
+		-Dnewproject.dir=test \
+		-Dnewproject.topLevelPackage=org.adorsys.test \
+		-Dnewproject.name=test"
 	forge
  
  output
